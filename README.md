@@ -6,7 +6,7 @@ A powerful Cura plugin for real-time GCODE layer preview and analysis with advan
 
 Watch the plugin in action:
 
-[![pz_cura_gcode_preview Demo](https://github.com/pzman3d/pz_cura_gcode_preview/blob/main/pz_cura_gcode_preview.mp4)](https://github.com/pzman3d/pz_cura_gcode_preview/blob/main/pz_cura_gcode_preview.mp4)
+[![pz_cura_gcode_preview Demo](https://img.youtube.com/vi/m4raWx0PiOg/maxresdefault.jpg)](https://youtu.be/m4raWx0PiOg)
 
 *Click the video above to see the full demonstration of the plugin features*
 
@@ -53,7 +53,7 @@ Watch the plugin in action:
 
 ### Quick Start
 
-> **💡 Tip**: Watch the [demo video](https://github.com/pzman3d/pz_cura_gcode_preview/blob/main/pz_cura_gcode_preview.mp4) above for a visual walkthrough of all features!
+> **💡 Tip**: Watch the [demo video](https://youtu.be/m4raWx0PiOg) above for a visual walkthrough of all features!
 
 ### Basic Usage
 
@@ -186,7 +186,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you encounter any issues or have questions:
 
-1. Watch the [demo video](https://github.com/pzman3d/pz_cura_gcode_preview/blob/main/pz_cura_gcode_preview.mp4) for visual guidance
+1. Watch the [demo video](https://youtu.be/m4raWx0PiOg) for visual guidance
 2. Check the [Troubleshooting](#-troubleshooting) section
 3. Search existing [Issues](https://github.com/pzman3d/pz_cura_gcode_preview/issues)
 4. Create a new issue with detailed description
