@@ -2,6 +2,14 @@
 
 A powerful Cura plugin for real-time GCODE layer preview and analysis with advanced features for 3D printing enthusiasts and professionals.
 
+## 🎥 Demo Video
+
+Watch the plugin in action:
+
+[![pz_cura_gcode_preview Demo](https://github.com/pzman3d/pz_cura_gcode_preview/blob/main/pz_cura_gcode_preview.mp4)](https://github.com/pzman3d/pz_cura_gcode_preview/blob/main/pz_cura_gcode_preview.mp4)
+
+*Click the video above to see the full demonstration of the plugin features*
+
 ## 📋 Features
 
 - **Real-time Layer Preview**: Monitor current printing layer and step in real-time
@@ -42,6 +50,10 @@ A powerful Cura plugin for real-time GCODE layer preview and analysis with advan
    - The plugin window should open successfully
 
 ## 📖 Usage Guide
+
+### Quick Start
+
+> **💡 Tip**: Watch the [demo video](https://github.com/pzman3d/pz_cura_gcode_preview/blob/main/pz_cura_gcode_preview.mp4) above for a visual walkthrough of all features!
 
 ### Basic Usage
 
@@ -174,10 +186,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you encounter any issues or have questions:
 
-1. Check the [Troubleshooting](#-troubleshooting) section
-2. Search existing [Issues](https://github.com/pzman3d/pz_cura_gcode_preview/issues)
-3. Create a new issue with detailed description
-4. Contact: pzman3d@gmail.com
+1. Watch the [demo video](https://github.com/pzman3d/pz_cura_gcode_preview/blob/main/pz_cura_gcode_preview.mp4) for visual guidance
+2. Check the [Troubleshooting](#-troubleshooting) section
+3. Search existing [Issues](https://github.com/pzman3d/pz_cura_gcode_preview/issues)
+4. Create a new issue with detailed description
+5. Contact: pzman3d@gmail.com
 
 ## 🔄 Version History
 
