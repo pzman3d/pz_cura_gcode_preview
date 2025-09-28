@@ -1,0 +1,8 @@
+{
+    "name": "Layer Preview Plugin",
+    "author": "Your Name",
+    "version": "1.0.0",
+    "description": "在預覽模式下顯示拖拉的圖層編號",
+    "api": 5,
+    "supported_sdk_versions": ["5.0.0", "6.0.0", "7.0.0", "8.0.0"]
+}
