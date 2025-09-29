@@ -2,6 +2,12 @@
 
 A powerful Cura plugin for real-time GCODE layer preview and analysis with advanced features for 3D printing enthusiasts and professionals. **Perfect for verifying ARC motion commands (G2/G3) and monitoring temperature/flow adjustments in your GCODE files.**
 
+## 🌐 Language Support
+
+- 🇺🇸 [English](README.md) (Default)
+- 🇹🇼 [繁體中文](README_zh_TW.md)
+- 🇯🇵 [日本語](README_ja.md)
+
 ## 🎥 Demo Video
 
 Watch the plugin in action:
