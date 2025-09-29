@@ -1,6 +1,6 @@
 # pz_cura_gcode_preview
 
-A powerful Cura plugin for real-time GCODE layer preview and analysis with advanced features for 3D printing enthusiasts and professionals.
+A powerful Cura plugin for real-time GCODE layer preview and analysis with advanced features for 3D printing enthusiasts and professionals. **Perfect for verifying ARC motion commands (G2/G3) and monitoring temperature/flow adjustments in your GCODE files.**
 
 ## 🎥 Demo Video
 
@@ -14,6 +14,8 @@ Watch the plugin in action:
 
 - **Real-time Layer Preview**: Monitor current printing layer and step in real-time
 - **GCODE Command Analysis**: View detailed GCODE commands for each layer and step
+- **ARC Motion Verification**: **Check G2/G3 arc commands for proper circular motion implementation**
+- **Temperature & Flow Monitoring**: **Monitor temperature adjustments and flow rate changes in real-time**
 - **Auto Scroll Control**: Toggle automatic scrolling to current layer commands
 - **Temporary GCODE Storage**: Save current Cura GCODE as temporary files
 - **File Management**: Easy selection and management of GCODE files
@@ -88,6 +90,18 @@ Watch the plugin in action:
 - Format: `( Layer X / Step Y ) GCODE_COMMAND`
 - Display range shows command count and scope
 
+#### 🔍 ARC Motion Verification
+- **G2/G3 Arc Commands**: Verify circular motion commands are properly generated
+- **Smooth Curves**: Check if slicer is using arc commands instead of linear segments
+- **Print Quality**: Ensure smooth curved surfaces without visible layer lines
+- **File Size**: Reduce GCODE file size by using efficient arc commands
+
+#### 🌡️ Temperature & Flow Monitoring
+- **Temperature Changes**: Monitor M104/M109 temperature setting commands
+- **Flow Rate Adjustments**: Track M221 flow rate modifications
+- **Layer Transitions**: Identify temperature changes between layers
+- **Print Optimization**: Analyze temperature and flow patterns for better results
+
 ### Interface Elements
 
 | Element | Description |
@@ -131,6 +145,16 @@ Watch the plugin in action:
 - Check write permissions in plugin directory
 - Ensure sufficient disk space
 - Verify Cura has generated GCODE
+
+**ARC commands not showing**
+- Enable "Arc Welder" plugin in Cura
+- Check if model has curved surfaces
+- Verify slicer settings for arc generation
+
+**Temperature commands not visible**
+- Ensure GCODE contains M104/M109 commands
+- Check if temperature settings are enabled in Cura
+- Verify material profile has temperature settings
 
 ### Debug Information
 - Enable debug logging in Cura
@@ -198,6 +222,8 @@ If you encounter any issues or have questions:
 - Initial release
 - Real-time layer preview
 - GCODE command analysis
+- **ARC Motion Verification (G2/G3 commands)**
+- **Temperature & Flow Rate Monitoring**
 - Auto scroll control
 - Temporary file management
 - English interface
